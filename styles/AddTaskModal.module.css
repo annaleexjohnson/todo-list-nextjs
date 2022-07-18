@@ -1,0 +1,69 @@
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(217, 217, 217, 50%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.modalForm{
+    position: absolute;
+    top: 50%;
+    margin-top: -25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #231942;
+    height: 50vh;
+    width: 18rem;
+    border-radius: 2.5rem;
+    z-index: 99;
+}
+
+.modalForm__close{
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    align-self: flex-end;
+}
+
+.modalForm__close:hover{
+    color: #E0B1CB; 
+}
+
+.modalForm__input{
+    width: 80%;
+    height: 2rem;
+}
+
+.modalForm__input:focus{
+    border: 0.2rem #E0B1CB solid;
+    outline: #E0B1CB;
+}
+
+.modalForm__button{
+    background-color: #E0B1CB;
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: #E0B1CB 0.3rem solid;
+    border-radius: 1rem;
+    width: 8rem;
+    margin-top: 5rem;
+}
+
+.modalForm__button:hover, .modalForm__button:focus{
+    border: white 0.3rem solid;
+    transition: 150ms ease-in-out;
+}
+

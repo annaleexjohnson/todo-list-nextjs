@@ -1,0 +1,26 @@
+.todoList__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.emptyToDo{
+    text-align: center;
+    margin: 0;
+    margin: 10vh;
+    font-size: 1.5rem;
+}
+
+.addNewTask{
+    position: fixed;
+    bottom: 10%;
+    width: 10rem;
+    padding: 0.7rem;
+    background-color: #231942;
+    font-family: inherit;
+    color: inherit;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+}

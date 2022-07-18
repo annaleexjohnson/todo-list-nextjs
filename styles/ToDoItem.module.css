@@ -1,0 +1,27 @@
+.todoItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoItem__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: #9F86C0;
+    height: 4rem;
+    width: 18rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.todoItem__delete{
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.todoItem__delete:hover{
+    color: #9F86C0;
+}
