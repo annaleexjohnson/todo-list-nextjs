@@ -18,6 +18,15 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## About
+
+This project is a simple, responsive to-do list that uses Next.js to practice handling states.
+
+
+https://user-images.githubusercontent.com/87035551/216184223-4d0d4b37-422c-44e6-a482-fc16944c64a6.mov
+
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
