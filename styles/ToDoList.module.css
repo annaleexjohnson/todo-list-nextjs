@@ -24,3 +24,8 @@
     border: none;
     border-radius: 1rem;
 }
+
+.addNewTask:hover{
+    opacity: 80%;
+    cursor: pointer;
+}

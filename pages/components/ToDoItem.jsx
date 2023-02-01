@@ -34,8 +34,8 @@ const ToDoItem = ({todo, index}) => {
                     <span style={{color: 'white'}}>{todo.todo}</span>
                 </span>
                 {
-                    complete ? <CheckCircleIcon onClick={completeToDo}/> :
-                    <RadioButtonUncheckedIcon onClick={completeToDo} />
+                    complete ? <CheckCircleIcon onClick={completeToDo} className={styles.todoItem__radio}/> :
+                    <RadioButtonUncheckedIcon onClick={completeToDo} className={styles.todoItem__radio}/>
                 }
             </div>
             <DeleteIcon className={styles.todoItem__delete} onClick={deleteToDo}/>

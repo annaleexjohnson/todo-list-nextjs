@@ -65,5 +65,6 @@
 .modalForm__button:hover, .modalForm__button:focus{
     border: white 0.3rem solid;
     transition: 150ms ease-in-out;
+    cursor: pointer;
 }
 

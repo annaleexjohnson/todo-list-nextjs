@@ -17,6 +17,12 @@
     font-weight: bold;
 }
 
+.todoItem__radio:hover{
+   font-size: 2rem;
+   cursor: pointer;
+   transition: 150ms ease-in-out;
+}
+
 .todoItem__delete{
     margin-top: 1.5rem;
     margin-left: 0.5rem;
@@ -24,4 +30,5 @@
 
 .todoItem__delete:hover{
     color: #9F86C0;
+    cursor: pointer;
 }
